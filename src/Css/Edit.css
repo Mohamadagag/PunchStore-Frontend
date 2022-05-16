@@ -1,0 +1,16 @@
+.EditPage {
+  height: 83vh;
+  margin-left: 650px;
+}
+
+.save button {
+  margin-left: 77px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.EditForm input {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 10px 20px;
+}

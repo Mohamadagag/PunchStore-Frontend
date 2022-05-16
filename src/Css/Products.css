@@ -1,0 +1,11 @@
+.product-paginationButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem 0;
+}
+
+.product-paginationButtons button {
+  border: 1px solid white;
+  padding: 0.5rem 0.5rem;
+}

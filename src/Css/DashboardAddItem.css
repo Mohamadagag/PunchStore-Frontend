@@ -1,0 +1,29 @@
+.Dashboard--additemForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.Dashboard--additemForm input,
+.Dashboard--additemForm textarea {
+  line-height: 2rem;
+  background-color: white;
+  color: black;
+  outline-style: none;
+  padding: 0.2rem 0.5rem;
+  width: 320px;
+}
+
+.Dashboard--additemForm input[type="file"] {
+  line-height: 2rem;
+  background-color: transparent;
+  outline-style: none;
+  width: 220px;
+}
+
+.Dashboard--additemForm button {
+  padding: 0.5rem;
+  border: 1px solid white;
+}

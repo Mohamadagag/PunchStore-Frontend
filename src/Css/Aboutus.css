@@ -1,0 +1,50 @@
+@media screen and (min-width: 320px) {
+  #aboutus-img {
+    margin-left: 30px;
+    width: 250px;
+    height: 200px;
+  }
+
+  .container {
+    margin: 0 3%;
+  }
+
+  .container p {
+    max-width: 55ch;
+    margin-bottom: 50px;
+    font-size: 1.7rem;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container p:last-child {
+    margin-bottom: 110px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #aboutus-img {
+    width: 150px;
+    height: 100px;
+  }
+  p {
+    width: 27ch;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container p {
+    font-size: 1.3rem;
+  }
+
+  #aboutus-img {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}

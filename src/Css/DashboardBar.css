@@ -1,0 +1,56 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 240px;
+  position: absolute;
+  left: 0;
+  padding: 1rem 0 0 1rem;
+  height: 100vh;
+  z-index: 1;
+}
+
+.dashboard .sidenav {
+  background: #000;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.dashboard .sidenav ul {
+  padding: 0;
+  flex-direction: column;
+}
+
+.dashboard .sidenav ul li {
+  list-style: none;
+  width: 100%;
+}
+
+.dashboard .sidenav ul li a {
+  display: block;
+  color: #eaecef;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.dashboard .sidenav ul li a:hover,
+.dashboard .sidenav ul li a:active {
+  background: #172b4d;
+}
+
+#Logo-img {
+  width: 120px;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+  }
+}

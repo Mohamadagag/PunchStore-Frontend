@@ -1,0 +1,734 @@
+* {
+  color: #fff;
+  background-color: #000;
+}
+
+.App {
+  margin: auto 3%;
+}
+
+/* Header */
+header {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  margin-right: 30px;
+  list-style: none;
+}
+
+ul li:last-child {
+  margin-right: 0;
+}
+
+ul li a:hover {
+  color: #0027ff;
+  border-bottom: 1px solid #fff;
+}
+
+#search {
+  height: 30px;
+  margin-right: 5px;
+  border: none;
+  border-bottom: solid 2px white;
+}
+
+.search {
+  position: relative;
+}
+
+#search-icon {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+}
+
+#logo-img {
+  height: 120px;
+  width: 120px;
+}
+
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger:focus {
+  outline: none;
+}
+
+/* Promo */
+
+.promo-area {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+
+#shop {
+  margin-left: 100px;
+  background-color: #0027ff;
+  padding: 15px 100px;
+  border-radius: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.promo-area h1 {
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.promo-area-text h2 {
+  font-weight: 300;
+  margin-left: 80px;
+}
+
+#ps4 {
+  width: 700px;
+  height: 400px;
+}
+
+/* New Products */
+
+#FirstProduct,
+#SecondProduct,
+#ThirdProduct {
+  height: 600px;
+  width: 600px;
+}
+
+.new-products {
+  position: relative;
+}
+
+.new-products h1 {
+  position: absolute;
+  top: 230px;
+  left: 750px;
+  font-size: 3rem;
+}
+
+.product-1 hr {
+  position: absolute;
+  top: 310px;
+  left: 753px;
+  width: 240px;
+}
+
+.product-1 h2,
+.product-3 h2 {
+  margin-left: 200px;
+  padding: 5px;
+}
+
+.product-1 p,
+.product-3 p {
+  margin-left: 200px;
+  padding: 5px;
+}
+
+.product-1 p,
+.product-3 p {
+  margin-bottom: 30px;
+}
+
+.product-1 a,
+.product-2 a,
+.product-3 a {
+  border: 1px solid #fff;
+  margin-left: 205px;
+  margin-top: 100px;
+  padding: 15px 35px 15px 35px;
+}
+
+.product-2 {
+  position: absolute;
+  top: 450px;
+  left: 650px;
+}
+
+.product-2 h2 {
+  margin-left: 140px;
+  padding: 5px;
+}
+
+.product-2 p {
+  margin-left: 140px;
+  margin-bottom: 30px;
+}
+
+.product-2 a {
+  margin-left: 146px;
+}
+
+.product-3 {
+  position: absolute;
+  top: 800px;
+}
+
+#Laptop {
+  width: 500px;
+  height: 500px;
+  margin-top: 450px;
+  margin-left: 780px;
+}
+
+#MobileFrame1,
+#MobileFrame2,
+#MobileFrame3 {
+  display: none;
+}
+
+/* Latest products */
+
+.Product-list {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+  box-sizing: content-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.Product-list::-webkit-scrollbar {
+  display: none;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-item-img {
+  width: 240px;
+  height: 240px;
+  margin: 5px;
+  object-position: center;
+  object-fit: contain;
+}
+
+.product-item-img:hover {
+  transform: scale(1.07);
+}
+
+/* Partners */
+
+#partners {
+  text-align: center;
+}
+
+.partners {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.partners h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  margin: 100px 0 30px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer_about ul,
+.footer_legal ul {
+  display: flex;
+  flex-direction: column;
+  line-height: 36px;
+}
+
+.footer_about span,
+.footer_legal span,
+.footer_social span {
+  color: #292929;
+  background-color: transparent;
+}
+
+.footer_social ul {
+  margin: 3rem 0;
+}
+
+.product-text {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.product-text h1 {
+  background-color: transparent;
+  position: absolute;
+  left: 50px;
+}
+
+/* Login */
+
+.login-container {
+  position: relative;
+}
+
+#login {
+  display: block;
+  margin-left: 440px;
+  margin-right: auto;
+  width: 45%;
+  background-color: transparent;
+}
+
+#Triangle {
+  background-color: transparent;
+  position: absolute;
+  top: 60px;
+  left: 590px;
+  width: 11%;
+}
+
+.login-header h1 {
+  background-color: transparent;
+  position: absolute;
+  top: 73px;
+  left: 648px;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.login-form {
+  position: absolute;
+  top: 270px;
+  left: 600px;
+}
+
+#login-form {
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+#Login-btn {
+  background-color: transparent;
+  position: absolute;
+  top: 166px;
+  left: 28px;
+  font-size: 1.5rem;
+  border: 1px solid;
+  padding: 5px 40px;
+}
+
+/* ======================================== */
+
+/* Mobile styles */
+/* 768px */
+
+@media (max-width: 768px) {
+  .search {
+    display: none;
+  }
+
+  header {
+    flex-flow: column-reverse wrap;
+  }
+
+  nav {
+    display: block;
+  }
+
+  #FirstProduct,
+  #SecondProduct,
+  #ThirdProduct,
+  #Laptop,
+  hr,
+  .product-1 p,
+  .product-1 a,
+  .product-1 h1,
+  .product-2 p,
+  .product-2 a,
+  .product-3 p,
+  .product-3 a {
+    display: none;
+  }
+
+  header {
+    justify-content: space-between;
+    margin-bottom: 0px;
+  }
+
+  .promo-area {
+    display: block;
+  }
+
+  #ps4 {
+    width: 500px;
+    margin-left: 115px;
+  }
+
+  .promo-area-text {
+    position: relative;
+  }
+
+  .promo-area-text h1 {
+    margin-left: 210px;
+    margin-top: 0;
+  }
+
+  .promo-area-text h2 {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  #shop {
+    top: 500px;
+    left: 270px;
+    padding: 10px 90px;
+    font-size: 1.5rem;
+  }
+
+  .product-1 h2 {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-size: 2.2rem;
+    margin-left: 220px;
+  }
+
+  #MobileFrame1 {
+    display: block;
+    width: 300px;
+    margin: 100px 0 0 220px;
+  }
+
+  #MobileFrame2,
+  .product-2 h2 {
+    position: relative;
+    display: block;
+    margin-left: -430px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+    z-index: 1;
+  }
+
+  .product-2 h2 {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    font-size: 2.2rem;
+  }
+
+  #MobileFrame3 {
+    display: block;
+    position: relative;
+    margin-left: 220px;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .product-3 h2 {
+    position: absolute;
+    top: 1040px;
+    left: 90px;
+    font-size: 2.2rem;
+  }
+
+  .product-3 {
+    position: static;
+    margin-top: 600px;
+  }
+
+  .partners h1 {
+    margin-bottom: 0;
+  }
+
+  .Product-list {
+    width: 60%;
+    height: 50%;
+    margin: 60px auto;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    box-sizing: content-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .Product-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .promo-area-text h2 {
+    margin-left: 10px;
+  }
+
+  .products h1 {
+    display: block;
+    margin-left: 210px;
+    margin-top: 100px;
+  }
+
+  #partners {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .partner-img {
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    box-sizing: content-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .partner-img::-webkit-scrollbar {
+    display: none;
+  }
+
+  #latest-product-text {
+    margin-left: 215px;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  .product-text {
+    margin-left: 135px;
+    margin-top: 40px;
+  }
+
+  Polygon {
+    margin-left: 50px;
+  }
+
+  .product-text h1 {
+    position: absolute;
+    top: 40px;
+    left: 35px;
+  }
+
+  #login {
+    margin-left: auto;
+    width: 60%;
+  }
+
+  #Triangle {
+    left: 268px;
+  }
+
+  .login-header h1 {
+    top: 66px;
+    left: 302px;
+    font-size: 2rem;
+  }
+
+  .login-form {
+    top: 184px;
+    left: 249px;
+  }
+
+  #Login-btn {
+    top: 138px;
+    left: 29px;
+  }
+
+  /* ========================================== */
+
+  /* 425px */
+
+  @media (max-width: 425px) {
+    .search {
+      display: none;
+    }
+
+    header {
+      flex-flow: column-reverse wrap;
+    }
+
+    nav {
+      display: block;
+    }
+
+    nav ul {
+      padding: 0;
+    }
+
+    #logo-img {
+      width: 25%;
+    }
+
+    #ps4 {
+      width: 90%;
+      height: 30%;
+      margin-top: 50px;
+      margin-left: 30px;
+    }
+
+    .promo-area-text h1 {
+      margin-left: 50px;
+      margin-bottom: 0;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    #MobileFrame1,
+    #MobileFrame2,
+    #MobileFrame3 {
+      margin-left: 0;
+      width: 90%;
+    }
+
+    .product-2 {
+      position: static;
+      width: 86%;
+      margin-left: 0;
+    }
+
+    .product-3 {
+      margin-top: 0;
+    }
+
+    .product-1,
+    .product-2,
+    .product-3 {
+      margin-left: 50px;
+    }
+
+    .product-1 h2,
+    .product-2 h2,
+    .product-3 h2 {
+      margin-left: 53px;
+    }
+
+    .product-2 h2 {
+      width: 46px;
+      top: 475px;
+      left: 121px;
+    }
+
+    .product-3 h2 {
+      margin-top: 0;
+      top: 1000px;
+      left: 78px;
+    }
+
+    .product-1 h2 {
+      top: 27px;
+    }
+
+    .Product-list {
+      width: 70%;
+    }
+
+    .partners {
+      margin-top: 113px;
+      margin-bottom: 20px;
+    }
+
+    #Polygon {
+      margin-left: 50px;
+    }
+
+    .product-text h1 {
+      position: absolute;
+      top: 40px;
+      left: 80px;
+    }
+
+    #latest-product-text {
+      margin-left: 60px;
+    }
+
+    .product-text {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+
+    footer {
+      margin-top: 75px;
+      margin-bottom: 0;
+    }
+
+    .footer_social {
+      margin-top: 50px;
+    }
+
+    .footer_about,
+    .footer_legal {
+      position: relative;
+    }
+
+    #login {
+      display: none;
+    }
+
+    #Triangle,
+    .login-form {
+      position: static;
+    }
+
+    .login-form {
+      margin: 0 auto;
+    }
+
+    #Triangle {
+      width: 47%;
+      margin-top: 31px;
+    }
+    .login-header {
+      margin-left: 98px;
+    }
+
+    .login-header h1 {
+      top: 42px;
+      left: 160px;
+      font-size: 3rem;
+    }
+
+    .login-inputs {
+      margin-left: 104px;
+      margin-top: 59px;
+      margin-bottom: 137px;
+    }
+
+    #Login-btn {
+      margin-left: 132px;
+      top: 366px;
+      left: 0;
+    }
+
+    .footer_about span,
+    .footer_legal span,
+    .footer_social span {
+      margin-left: 0;
+    }
+  }
+}

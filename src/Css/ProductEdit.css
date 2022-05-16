@@ -1,0 +1,15 @@
+.product-edit-delete {
+  margin-left: 650px;
+  height: 83vh;
+}
+
+.addEdit {
+  margin-left: 30px;
+}
+
+.addEdit button {
+  margin-left: 20px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+}

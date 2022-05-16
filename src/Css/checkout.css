@@ -1,0 +1,127 @@
+/*laptop screen*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.checkout-container {
+  padding: 2rem;
+}
+.checkout-title {
+  display: flex;
+}
+.checkout-title h1 {
+  margin: 2rem -3rem;
+  background-color: transparent;
+}
+.checkout-img {
+  width: 6rem;
+}
+
+.checkout-product {
+  display: flex;
+  padding-top: 4rem;
+  gap: 4rem;
+}
+
+.checkout-product > div {
+  width: 100%;
+}
+
+.product-img img {
+  object-fit: contain;
+  object-position: center;
+  width: 300px;
+  height: 300px;
+}
+.product-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.product-info {
+  padding: 2rem 0;
+}
+
+.product-info h2 {
+  margin-bottom: 4rem;
+}
+.product-desc h4 {
+  margin-bottom: 2rem;
+}
+
+.product-desc p {
+  text-align: justify;
+}
+
+.checkout-form-inputs {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.checkout-form .checkout-form-container {
+  padding-top: 4rem;
+  width: 45%;
+  min-width: 384px;
+  max-width: 500px;
+}
+.checkout-form-container h2 {
+  padding-bottom: 1.5rem;
+}
+
+.checkout-doubleInput {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+.checkout-doubleInput input,
+.checkout-singleInput input {
+  line-height: 2.5rem;
+  margin-top: 1.5rem;
+  width: 100%;
+  background-color: white;
+  color: black;
+  letter-spacing: 0.05rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+  outline: none;
+  border: none;
+}
+
+.checkout-doubleInput input:focus,
+.checkout-singleInput input:focus {
+  outline: none;
+}
+
+.checkout-doubleInput input::placeholder,
+.checkout-singleInput input::placeholder {
+  color: black;
+}
+.checkout-total {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 5rem;
+  align-items: center;
+}
+.Checkout-button {
+  border: 1px solid #fff;
+  padding: 0.5rem 1.5rem;
+}
+
+@media (max-width: 767px) {
+  .checkout-product {
+    display: flex;
+    flex-direction: column;
+  }
+  .checkout-doubleInput {
+    flex-direction: column;
+    gap: 0;
+  }
+  .product-info h2 {
+    text-align: center;
+  }
+}
